@@ -24,7 +24,7 @@
          linear-gradient(to right,
             rgba(0, 0, 0, 0.45),
             rgba(0, 0, 0, 0.15)),
-        url(images/Camping_promo.png) center/cover no-repeat;
+        url(images/camping_promo.png) center/cover no-repeat;
     padding: 80px 60px;
     color: white;
     text-align: center;
