@@ -1,0 +1,519 @@
+/* VIP Page Styles */
+
+/* Hero Section */
+.vip-hero {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 100px 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 600px;
+}
+
+.vip-hero-content {
+  flex: 1;
+}
+
+.vip-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #ffd700, #ffed4e);
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+}
+
+.vip-badge i {
+  font-size: 16px;
+}
+
+.vip-hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  color: #333;
+}
+
+.vip-hero p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.vip-price {
+  margin-bottom: 30px;
+}
+
+.price-amount {
+  font-size: 42px;
+  font-weight: 700;
+  color: #333;
+}
+
+.price-period {
+  font-size: 18px;
+  color: #666;
+  margin-left: 5px;
+}
+
+.vip-join-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #ffd700, #ffed4e);
+  color: #333;
+  border: none;
+  padding: 18px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+}
+
+.vip-join-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
+}
+
+.vip-join-btn.large {
+  padding: 22px 40px;
+  font-size: 18px;
+}
+
+.vip-hero-image {
+  flex: 1;
+}
+
+.vip-hero-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Benefits Section */
+.vip-benefits {
+  padding: 80px 50px;
+  background: #f8f9fa;
+}
+
+.benefits-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.benefits-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.benefits-header p {
+  font-size: 18px;
+  color: #666;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.benefit-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.benefit-card.highlight {
+  border: 2px solid #ffd700;
+  position: relative;
+  overflow: hidden;
+}
+
+.benefit-card.highlight::before {
+  content: 'VIP EXCLUSIVE';
+  position: absolute;
+  top: 15px;
+  right: -30px;
+  background: #ffd700;
+  color: #333;
+  padding: 5px 40px;
+  font-size: 12px;
+  font-weight: 600;
+  transform: rotate(45deg);
+}
+
+.benefit-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #ffd700, #ffed4e);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.benefit-icon i {
+  font-size: 24px;
+  color: #333;
+}
+
+.benefit-card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.benefit-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.benefit-example {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.benefit-example span {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.benefit-example .regular {
+  background: #f1f3f4;
+  color: #666;
+}
+
+.benefit-example .vip {
+  background: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffd700;
+}
+
+/* Rewards Comparison */
+.rewards-comparison {
+  padding: 80px 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.rewards-comparison h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.comparison-table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.comparison-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #f8f9fa;
+}
+
+.plan-column {
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.plan-column h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.plan-column p {
+  font-size: 16px;
+  color: #666;
+}
+
+.vip-column {
+  background: linear-gradient(135deg, #ffd700, #ffed4e);
+  color: #333;
+}
+
+.vip-column p {
+  color: #333;
+}
+
+.comparison-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid #eee;
+}
+
+.comparison-row:last-child {
+  border-bottom: none;
+}
+
+.feature-name {
+  padding: 20px 30px;
+  font-weight: 600;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.regular-value,
+.vip-value {
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.vip-value {
+  background: #fff9e6;
+  font-weight: 600;
+  color: #333;
+}
+
+/* FAQ Section */
+.vip-faq {
+  padding: 80px 50px;
+  background: #f8f9fa;
+}
+
+.vip-faq h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.faq-question {
+  width: 100%;
+  padding: 25px 30px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease;
+}
+
+.faq-question:hover {
+  background: #f8f9fa;
+}
+
+.faq-question i {
+  transition: transform 0.3s ease;
+  color: #ffd700;
+}
+
+.faq-answer {
+  display: none;
+  padding: 0 30px 25px;
+}
+
+.faq-answer p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  margin: 0;
+}
+
+/* CTA Section */
+.vip-cta {
+  padding: 80px 50px;
+  background: 
+   linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url('images/camping_promo.png') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.cta-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.cta-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.cta-guarantee {
+  font-size: 14px;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .vip-hero {
+    flex-direction: column;
+    padding: 60px 20px;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .vip-hero h1 {
+    font-size: 32px;
+  }
+
+  .price-amount {
+    font-size: 32px;
+  }
+
+  .vip-benefits {
+    padding: 60px 20px;
+  }
+
+  .benefits-header h2 {
+    font-size: 28px;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .benefit-card {
+    padding: 25px 20px;
+  }
+
+  .rewards-comparison {
+    padding: 60px 20px;
+  }
+
+  .rewards-comparison h2 {
+    font-size: 28px;
+  }
+
+  .comparison-header {
+    grid-template-columns: 1fr;
+  }
+
+  .comparison-row {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-name {
+    background: #333;
+    color: white;
+    font-weight: 600;
+  }
+
+  .regular-value::before {
+    content: 'Regular: ';
+    font-weight: 600;
+  }
+
+  .vip-value::before {
+    content: 'VIP: ';
+    font-weight: 600;
+  }
+
+  .vip-faq {
+    padding: 60px 20px;
+  }
+
+  .vip-faq h2 {
+    font-size: 28px;
+  }
+
+  .faq-question {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .faq-answer {
+    padding: 0 20px 20px;
+  }
+
+  .vip-cta {
+    padding: 60px 20px;
+  }
+
+  .cta-content h2 {
+    font-size: 28px;
+  }
+
+  .vip-join-btn.large {
+    padding: 18px 30px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .vip-hero h1 {
+    font-size: 28px;
+  }
+
+  .benefits-header h2,
+  .rewards-comparison h2,
+  .vip-faq h2,
+  .cta-content h2 {
+    font-size: 24px;
+  }
+
+  .benefit-card.highlight::before {
+    font-size: 10px;
+    padding: 3px 30px;
+  }
+}

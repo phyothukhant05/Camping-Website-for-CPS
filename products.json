@@ -1,0 +1,141 @@
+{
+  "categories": {
+    "tents": {
+      "name": "Tents & Shelters",
+      "featureImage": "images/camping_tents/camping_tents_feature.jpg",
+      "description": "Prepare for your upcoming camping trip by upgrading your tent or shelter! Create a Modern-style campsite with designated spaces for cooking, sleeping, and gathering.",
+      "filters": {
+        "price": ["Under $200", "$200 - $400", "$400 - $600", "Over $600"],
+        "size": ["Small", "Medium", "Large"],
+        "capacity": ["1 Person", "2 Person", "4 Person", "6+ Person"]
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "alpha-breeze-tent",
+      "name": "Alpha Breeze Tent",
+      "category": "tents",
+      "price": 349.95,
+      "image": "images/camping_tents/Camping_tent_1.png",
+      "description": "2-4 Person Waterproof Shelter",
+      "capacity": "4P",
+      "weight": "8.5kg",
+      "material": "Waterproof polyester",
+      "details": "Spacious weather-resistant shelter perfect for family camping trips.",
+      "included": "Tent body, poles, pegs, ropes, carry bag and rain cover.",
+      "specs": "Capacity: 4P<br>Weight: 8.5kg<br>Material: Waterproof polyester",
+      "features": "Easy setup, wind resistant, spacious ventilation and premium frame.",
+      "hasDetailPage": true,
+      "detailPageUrl": "product.html?id=alpha-breeze-tent",
+      "related": ["awning-pole-set", "land-nest-shelter", "land-nest-mat"]
+    },
+    {
+      "id": "compact-dome-tent",
+      "name": "Compact Dome Tent",
+      "category": "tents",
+      "price": 249.95,
+      "image": "images/camping_tents/Camping_tent_2.png",
+      "description": "Lightweight Camping Tent",
+      "capacity": "2P",
+      "hasDetailPage": false
+    },
+    {
+      "id": "family-shelter",
+      "name": "Family Shelter",
+      "category": "tents",
+      "price": 499.95,
+      "image": "images/camping_tents/Camping_tent_3.png",
+      "description": "Large Tent for Family Trips",
+      "capacity": "6P",
+      "hasDetailPage": false
+    },
+    {
+      "id": "solo-trek-tent",
+      "name": "Solo Trek Tent",
+      "category": "tents",
+      "price": 189.95,
+      "image": "images/camping_tents/Camping_tent_4.png",
+      "description": "Minimal Hiking Shelter",
+      "capacity": "1P",
+      "hasDetailPage": false
+    },
+    {
+      "id": "explorer-tent",
+      "name": "Explorer Tent",
+      "category": "tents",
+      "price": 289.95,
+      "image": "images/camping_tents/Camping_tent_5.png",
+      "description": "All-weather protection",
+      "capacity": "3P",
+      "hasDetailPage": false
+    },
+    {
+      "id": "camping-dome",
+      "name": "Camping Dome",
+      "category": "tents",
+      "price": 399.95,
+      "image": "images/camping_tents/Camping_tent_1.png",
+      "description": "Comfortable family camping",
+      "capacity": "5P",
+      "hasDetailPage": false
+    },
+    {
+      "id": "adventure-tent",
+      "name": "Adventure Tent",
+      "category": "tents",
+      "price": 279.95,
+      "image": "images/camping_tents/Camping_tent_2.png",
+      "description": "Wind-resistant durable frame",
+      "capacity": "2P",
+      "hasDetailPage": false
+    },
+    {
+      "id": "luxury-shelter",
+      "name": "Luxury Shelter",
+      "category": "tents",
+      "price": 599.95,
+      "image": "images/camping_tents/Camping_tent_3.png",
+      "description": "Premium spacious setup",
+      "capacity": "6P",
+      "hasDetailPage": false
+    },
+    {
+      "id": "weekend-tent",
+      "name": "Weekend Tent",
+      "category": "tents",
+      "price": 219.95,
+      "image": "images/camping_tents/Camping_tent_4.png",
+      "description": "Perfect for quick trips",
+      "capacity": "2P",
+      "hasDetailPage": false
+    },
+    {
+      "id": "awning-pole-set",
+      "name": "Awning Pole Set",
+      "category": "tents",
+      "price": 97.95,
+      "image": "images/camping_tents/Camping_tent_2.png",
+      "description": "Flexible support poles for shade and shelter",
+      "hasDetailPage": false
+    },
+    {
+      "id": "land-nest-shelter",
+      "name": "Land Nest Shelter in Ivory",
+      "category": "tents",
+      "price": 999.95,
+      "image": "images/camping_tents/Camping_tent_3.png",
+      "description": "Premium shelter with a spacious luxury footprint",
+      "hasDetailPage": false
+    },
+    {
+      "id": "land-nest-mat",
+      "name": "Land Nest Shelter Mat & Sheet Set",
+      "category": "tents",
+      "price": 199.95,
+      "image": "images/camping_tents/Camping_tent_4.png",
+      "description": "Ground protection kit made to fit the Land Nest Shelter",
+      "hasDetailPage": false
+    }
+  ]
+}

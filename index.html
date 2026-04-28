@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="CPS Camping Store - Premium outdoor gear, tents, sleeping bags, camping chairs, lanterns, stoves and cooking sets for all your adventures.">
+  <title>Home</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="auth-modal.css">
+  <script src="cart.js" defer></script>
+  <script src="auth.js" defer></script>
+  <script src="footer-active.js" defer></script>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script>
+    function scrollFeature(direction) {
+      const slider = document.getElementById("featureSlider");
+      slider.scrollLeft += direction * 440;
+    }
+  </script>
+
+  <nav class="navbar">
+    <!-- Left Logo -->
+    <div class="logo">
+      <h2>CPS</h2>
+    </div>
+
+    <!-- Center Navigation -->
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li class="dropdown">
+        <a href="#">Products</a>
+        <ul class="dropdown-menu">
+          <li><a href="Tent_Cat.html">Tents &amp; Shelters</a></li>
+          <li><a href="sleeping-bags.html">Sleeping Bags</a></li>
+          <li><a href="camping-chairs.html">Camping Chairs</a></li>
+          <li><a href="camping-lamps.html">Lanterns &amp; Lamps</a></li>
+          <li><a href="camping-stoves.html">Camping Stoves</a></li>
+          <li><a href="cooking-sets.html">Camp Cooking Sets</a></li>
+        </ul>
+      </li>
+      <li><a href="news.html">News</a></li>
+      <li class="dropdown">
+        <a href="#">About Us</a>
+        <ul class="dropdown-menu">
+          <li><a href="about_us.html">Our History</a></li>
+          <li><a href="company.html#cps-campfield">CPS Campfield</a></li>
+          <li><a href="company.html#careers">Careers</a></li>
+          <li><a href="company.html#affiliates">Affiliates</a></li>
+          <li><a href="company.html#global">Global</a></li>
+        </ul>
+      </li>
+      <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+
+    <!-- Right Icons -->
+    <div class="nav-icons">
+      <a href="account.html" aria-label="Open account"><i class="fa-regular fa-user"></i></a>
+      <a href="wishlist.html" class="wishlist-link" aria-label="Open wishlist">
+        <i class="fa-regular fa-heart"></i>
+        <span class="cart-count-badge" data-wishlist-count hidden="">0</span>
+      </a>
+      <a href="cart.html" class="cart-link" aria-label="Open cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-count-badge" data-cart-count hidden="">0</span>
+      </a>
+    </div>
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>New Arrivals</h1>
+        <p>Discover the latest camping essentials for your next adventure.</p>
+        <a href="Tent_Cat.html" class="shop-btn">Shop Now</a>
+      </div>
+    </section>
+
+    <section class="feature-section">
+      <div class="feature-header">
+        <h2>Popular Items</h2>
+        <div class="feature-arrows">
+          <button type="button" onclick="scrollFeature(-1)">&#10094;</button>
+          <button type="button" onclick="scrollFeature(1)">&#10095;</button>
+        </div>
+      </div>
+
+      <div class="feature-slider" id="featureSlider">
+        <div class="feature-card">
+          <img src="images/Sleeping_bag/Sleeping_bag_1.png" alt="Sleeping Bag">
+          <p>
+            Premium waterproof Sleeping bag built for every outdoor journey.
+          </p>
+          <a href="product.html?id=trailblazer-sleeping-bag" class="info-btn">More Info</a>
+        </div>
+
+        <div class="feature-card">
+          <img src="images/Sleeping_bag/Sleeping_bag_2.png" alt="Sleeping Bag">
+          <p>Warm sleeping bag designed for cold mountain nights.</p>
+          <a href="product.html?id=arctic-pro-sleeping-bag" class="info-btn">More Info</a>
+        </div>
+
+        <div class="feature-card">
+          <img src="images/camping_chair/camping_chair_1.png" alt="Chair">
+          <p>Foldable camping chair with premium comfort support.</p>
+          <a href="product.html?id=trail-rest-chair" class="info-btn">More Info</a>
+        </div>
+
+        <div class="feature-card">
+          <img src="images/camping_lamp/camping_lamp_1.jpg" alt="Lantern">
+          <p>Portable LED lantern for bright outdoor lighting.</p>
+          <a href="product.html?id=nova-lantern" class="info-btn">More Info</a>
+        </div>
+
+        <div class="feature-card">
+          <img src="images/camping_stove/camping_stove.png" alt="Stove">
+          <p>Portable camping stove for easy meal preparation.</p>
+          <a href="product.html?id=peak-stove" class="info-btn">More Info</a>
+        </div>
+
+        <div class="feature-card">
+          <img src="images/camp_cooking_set/camping_cup_1.jpg" alt="Camping Cup">
+          <p>Sturdy camping cup for your beverages on the go.</p>
+          <a href="product.html?id=camp-utensil-set" class="info-btn">More Info</a>
+        </div>
+
+        <div class="feature-card">
+          <img src="images/camp_cooking_set/camping_cookware_set.jpg" alt="Cookware Set">
+          <p>Portable cooking set for delicious meals in the wilderness.</p>
+          <a href="product.html?id=cast-iron-skillet" class="info-btn">More Info</a>
+        </div>
+
+        <div class="feature-card">
+          <img src="images/camp_cooking_set/camping_water_bottle.jpg" alt="Water Bottle">
+          <p>Insulated water bottle to keep your drinks cold or hot.</p>
+          <a href="product.html?id=camp-water-bottle" class="info-btn">More Info</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="category-section">
+      <h2 class="category-title">CATEGORY</h2>
+
+      <div class="category-container">
+
+        <div class="category-card">
+          <a href="sleeping-bags.html">
+            <div class="circle-bg">
+              <img src="images/Sleeping_bag/Sleeping_bag_4.png" alt="Sleeping Bag">
+            </div>
+          </a>
+          <p>SLEEPING BAG</p>
+        </div>
+
+        <div class="category-card">
+          <a href="Tent_Cat.html">
+            <div class="circle-bg">
+              <img src="images/camping_tents/Camping_tent_1.png" alt="Tent">
+            </div>
+          </a>
+          <p>Tents</p>
+        </div>
+
+        <div class="category-card">
+          <a href="camping-chairs.html">
+            <div class="circle-bg">
+              <img src="images/camping_chair/camping_chair_2.png" alt="Camping Chair">
+            </div>
+          </a>
+          <p>Chairs</p>
+        </div>
+
+        <div class="category-card">
+          <a href="camping-stoves.html">
+            <div class="circle-bg">
+              <img src="images/camping_stove/camping_stove.png" alt="Stove">
+            </div>
+          </a>
+          <p>Stoves & Kitchen Equipments</p>
+        </div>
+
+        <div class="category-card">
+          <a href="camping-lamps.html">
+            <div class="circle-bg">
+              <img src="images/camping_lamp/camping_lamp_3.png" alt="Lantern">
+            </div>
+          </a>
+          <p>Lamps</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="subscribe-section">
+    <div class="subscribe-overlay">
+      <div class="subscribe-content">
+        <h2>15% off your first order</h2>
+        <p>
+          Join our mailing list to receive the latest news and promotions.
+        </p>
+
+        <form class="subscribe-form">
+          <input type="email" placeholder="Email Address">
+          <button type="submit">SUBSCRIBE</button>
+        </form>
+
+        <div class="vip-promotion">
+          <p>Want even more benefits? Unlock exclusive VIP perks!</p>
+          <a href="vip.html" class="join-vip-btn">
+            <i class="fa-solid fa-crown"></i>
+            Join VIP
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>SHOP</h3>
+        <ul>
+          <li><a href="index.html" class="active-link">Features</a></li>
+          <li><a href="Tent_Cat.html">Tents &amp; Shelters</a></li>
+          <li><a href="sleeping-bags.html">Sleeping Bags</a></li>
+          <li><a href="camping-chairs.html">Camping Chairs</a></li>
+          <li><a href="camping-lamps.html">Lanterns &amp; Lamps</a></li>
+          <li><a href="camping-stoves.html">Camping Stoves</a></li>
+          <li><a href="cooking-sets.html">Camp Cooking Sets</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>HELP</h3>
+        <ul>
+          <li><a href="contactus.html">Customer Support</a></li>
+          <li><a href="policies.html#shipping-policy">Shipping Policy</a></li>
+          <li><a href="policies.html#returns-refunds">Returns & Refunds</a></li>
+          <li><a href="policies.html#product-care">Product Care</a></li>
+          <li><a href="policies.html#warranty-repair">Warranty & Repair</a></li>
+          <li><a href="policies.html#faq">FAQ</a></li>
+          <li><a href="policies.html#privacy">Privacy</a></li>
+          <li><a href="policies.html#terms-service">Terms of Service</a></li>
+          <li><a href="policies.html#terms-conditions">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>ABOUT</h3>
+        <ul>
+          <li><a href="about_us.html">Our History</a></li>
+          <li><a href="company.html#cps-campfield">CPS Campfield</a></li>
+          <li><a href="company.html#careers">Careers</a></li>
+          <li><a href="company.html#affiliates">Affiliates</a></li>
+          <li><a href="company.html#global">Global</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column connect-col">
+        <h3>CONNECT WITH US</h3>
+        <div class="contact-info">
+          <p>CPS</p>
+          <p>Phone: +1 (888) 424-4916</p>
+          <p>Email: <a href="mailto:info@cps.com">info@cps.com</a></p>
+          <p>Hours: Monday-Friday, 8:30am-5pm PST</p>
+        </div>
+
+        <div class="social-links">
+          <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+            </svg></a>
+          <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg></a>
+        </div>
+
+        <div class="mailing-list">
+          <h3>JOIN OUR MAILING LIST</h3>
+        </div>
+
+        <div class="app-section">
+          <h4>GET OUR APP</h4>
+          <div class="app-buttons">
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                alt="Google Play"></a>
+            <a href="#"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                alt="App Store"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function scrollFeature(direction) {
+      const slider = document.getElementById("featureSlider");
+      slider.scrollLeft += direction * 440;
+    }
+
+    // Hamburger menu toggle
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+      hamburger.classList.toggle("active");
+    });
+
+    // Dropdown toggle for mobile
+    const dropdowns = document.querySelectorAll(".dropdown > a");
+
+    dropdowns.forEach((dropdown) => {
+      dropdown.addEventListener("click", (e) => {
+        if (window.innerWidth <= 980) {
+          e.preventDefault();
+          const parent = dropdown.parentElement;
+          parent.classList.toggle("active");
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
+

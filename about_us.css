@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: Arial, sans-serif; */
+    background: #f4f4f4;
+}
+
+/* Container */
+.cps-history-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Sections */
+.cps-history-section {
+    background: white;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.8s ease;
+}
+
+/* Text */
+.cps-history-title {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.cps-history-text {
+    color: #555;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Animation states */
+.cps-history-hidden {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.cps-history-show {
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CPS VIP Membership - Exclusive benefits, double reward points, priority access, and premium outdoor gear perks.">
+  <title>VIP Membership - CPS</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="vip.css">
+  <script src="cart.js" defer></script>
+  <script src="footer-active.js" defer></script>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-- Left Logo -->
+    <div class="logo">
+      <h2>CPS</h2>
+    </div>
+
+    <!-- Center Navigation -->
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <a href="#">Products</a>
+        <ul class="dropdown-menu">
+          <li><a href="Tent_Cat.html">Tents &amp; Shelters</a></li>
+          <li><a href="sleeping-bags.html">Sleeping Bags</a></li>
+          <li><a href="camping-chairs.html">Camping Chairs</a></li>
+          <li><a href="camping-lamps.html">Lanterns &amp; Lamps</a></li>
+          <li><a href="camping-stoves.html">Camping Stoves</a></li>
+          <li><a href="cooking-sets.html">Camp Cooking Sets</a></li>
+        </ul>
+      </li>
+      <li><a href="news.html">News</a></li>
+      <li class="dropdown">
+        <a href="#">About Us</a>
+        <ul class="dropdown-menu">
+          <li><a href="about_us.html">Our History</a></li>
+          <li><a href="company.html#cps-campfield">CPS Campfield</a></li>
+          <li><a href="company.html#careers">Careers</a></li>
+          <li><a href="company.html#affiliates">Affiliates</a></li>
+          <li><a href="company.html#global">Global</a></li>
+        </ul>
+      </li>
+      <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+
+    <!-- Right Icons -->
+    <div class="nav-icons">
+      <a href="account.html" aria-label="Open account"><i class="fa-regular fa-user"></i></a>
+      <a href="wishlist.html" class="wishlist-link" aria-label="Open wishlist">
+        <i class="fa-regular fa-heart"></i>
+        <span class="cart-count-badge" data-wishlist-count hidden="">0</span>
+      </a>
+      <a href="cart.html" class="cart-link" aria-label="Open cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-count-badge" data-cart-count hidden="">0</span>
+      </a>
+    </div>
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="vip-hero">
+      <div class="vip-hero-content">
+        <div class="vip-badge">
+          <i class="fa-solid fa-crown"></i>
+          <span>VIP</span>
+        </div>
+        <h1>Unlock Premium Adventures</h1>
+        <p>Join CPS VIP and experience outdoor gear shopping like never before. Get exclusive access, double rewards, and premium benefits designed for serious adventurers.</p>
+        <div class="vip-price">
+          <span class="price-amount">$29.99</span>
+          <span class="price-period">/year</span>
+        </div>
+        <button class="vip-join-btn" id="joinVipBtn">
+          <i class="fa-solid fa-crown"></i>
+          Join VIP Now
+        </button>
+      </div>
+      <div class="vip-hero-image">
+        <img src="images/camping_site.jpg" alt="Premium Camping Experience">
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="vip-benefits">
+      <div class="benefits-header">
+        <h2>VIP Exclusive Benefits</h2>
+        <p>Unlock a world of premium perks designed for outdoor enthusiasts</p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card highlight">
+          <div class="benefit-icon">
+            <i class="fa-solid fa-coins"></i>
+          </div>
+          <h3>Double Reward Points</h3>
+          <p>Earn <strong>2x CPS Reward Points</strong> on every purchase. Turn your gear investments into future savings faster.</p>
+          <div class="benefit-example">
+            <span class="regular">Regular: 1 point per $1</span>
+            <span class="vip">VIP: 2 points per $1</span>
+          </div>
+        </div>
+
+        <div class="benefit-card highlight">
+          <div class="benefit-icon">
+            <i class="fa-solid fa-gem"></i>
+          </div>
+          <h3>Double Life Value Points</h3>
+          <p>Get <strong>2x Life Value Points</strong> to unlock exclusive experiences and premium gear access.</p>
+          <div class="benefit-example">
+            <span class="regular">Regular: 1 LVP per purchase</span>
+            <span class="vip">VIP: 2 LVP per purchase</span>
+          </div>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <i class="fa-solid fa-shipping-fast"></i>
+          </div>
+          <h3>Free Express Shipping</h3>
+          <p>Get free 2-day express shipping on all orders, no minimum purchase required.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <i class="fa-solid fa-eye"></i>
+          </div>
+          <h3>Early Access</h3>
+          <p>Be the first to shop new arrivals, limited editions, and seasonal collections before they go public.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <i class="fa-solid fa-percent"></i>
+          </div>
+          <h3>Exclusive Discounts</h3>
+          <p>Access VIP-only sales, member pricing, and special promotional offers throughout the year.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <h3>Priority Support</h3>
+          <p>Skip the line with dedicated VIP customer service and priority technical support.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <i class="fa-solid fa-calendar-alt"></i>
+          </div>
+          <h3>Extended Returns</h3>
+          <p>Enjoy 60-day return window instead of the standard 30 days, plus free return shipping.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <i class="fa-solid fa-gift"></i>
+          </div>
+          <h3>Birthday Rewards</h3>
+          <p>Celebrate your special day with exclusive birthday discounts and surprise gear gifts.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rewards Comparison -->
+    <section class="rewards-comparison">
+      <h2>Rewards Program Comparison</h2>
+      <div class="comparison-table">
+        <div class="comparison-header">
+          <div class="plan-column">
+            <h3>Regular Member</h3>
+            <p>Free to join</p>
+          </div>
+          <div class="plan-column vip-column">
+            <h3>VIP Member</h3>
+            <p>$29.99/year</p>
+          </div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="feature-name">CPS Reward Points</div>
+          <div class="regular-value">1 point per $1 spent</div>
+          <div class="vip-value">2 points per $1 spent</div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="feature-name">Life Value Points</div>
+          <div class="regular-value">1 LVP per purchase</div>
+          <div class="vip-value">2 LVP per purchase</div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="feature-name">Free Shipping</div>
+          <div class="regular-value">Orders over $150</div>
+          <div class="vip-value">All orders (Express)</div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="feature-name">Return Period</div>
+          <div class="regular-value">30 days</div>
+          <div class="vip-value">60 days</div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="feature-name">Early Access</div>
+          <div class="regular-value">-</div>
+          <div class="vip-value">✓</div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="feature-name">Exclusive Discounts</div>
+          <div class="regular-value">-</div>
+          <div class="vip-value">✓</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="vip-faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question" type="button">
+            <span>How do VIP reward points work?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>VIP members earn 2 CPS Reward Points for every $1 spent, compared to 1 point for regular members. Points can be redeemed for discounts on future purchases. 100 points = $5 off your order.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button">
+            <span>What are Life Value Points?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Life Value Points (LVP) are special points that unlock exclusive experiences, early access to limited products, and premium gear trials. VIP members earn 2 LVP per purchase instead of 1.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button">
+            <span>Can I cancel my VIP membership?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, you can cancel your VIP membership at any time. Your benefits will continue until the end of your current billing period. Any unused reward points will remain in your account.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button">
+            <span>Is the VIP membership worth it?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>If you spend $150+ per year on outdoor gear, VIP pays for itself through double reward points alone. Add free express shipping and exclusive discounts, and most members save $100+ annually.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="vip-cta">
+      <div class="cta-content">
+        <h2>Ready to Upgrade Your Adventure?</h2>
+        <p>Join thousands of outdoor enthusiasts who've unlocked premium benefits</p>
+        <button class="vip-join-btn large" id="joinVipBtnBottom">
+          <i class="fa-solid fa-crown"></i>
+          Start VIP Membership - $29.99/year
+        </button>
+        <p class="cta-guarantee">30-day money-back guarantee • Cancel anytime</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>SHOP</h3>
+        <ul>
+          <li><a href="index.html">Features</a></li>
+          <li><a href="Tent_Cat.html">Tents &amp; Shelters</a></li>
+          <li><a href="sleeping-bags.html">Sleeping Bags</a></li>
+          <li><a href="camping-chairs.html">Camping Chairs</a></li>
+          <li><a href="camping-lamps.html">Lanterns &amp; Lamps</a></li>
+          <li><a href="camping-stoves.html">Camping Stoves</a></li>
+          <li><a href="cooking-sets.html">Camp Cooking Sets</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>HELP</h3>
+        <ul>
+          <li><a href="contactus.html">Customer Support</a></li>
+          <li><a href="policies.html#shipping-policy">Shipping Policy</a></li>
+          <li><a href="policies.html#returns-refunds">Returns &amp; Refunds</a></li>
+          <li><a href="policies.html#product-care">Product Care</a></li>
+          <li><a href="policies.html#warranty-repair">Warranty &amp; Repair</a></li>
+          <li><a href="policies.html#faq">FAQ</a></li>
+          <li><a href="policies.html#privacy">Privacy</a></li>
+          <li><a href="policies.html#terms-service">Terms of Service</a></li>
+          <li><a href="policies.html#terms-conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>ABOUT</h3>
+        <ul>
+          <li><a href="about_us.html">Our History</a></li>
+          <li><a href="company.html#cps-campfield">CPS Campfield</a></li>
+          <li><a href="company.html#careers">Careers</a></li>
+          <li><a href="company.html#affiliates">Affiliates</a></li>
+          <li><a href="company.html#global">Global</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column connect-col">
+        <h3>CONNECT WITH US</h3>
+        <div class="contact-info">
+          <p>CPS</p>
+          <p>Phone: +1 (888) 424-4916</p>
+          <p>Email: <a href="mailto:info@cps.com">info@cps.com</a></p>
+          <p>Hours: Monday-Friday, 8:30am-5pm PST</p>
+        </div>
+
+        <div class="social-links">
+          <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+            </svg></a>
+          <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg></a>
+        </div>
+
+        <div class="mailing-list">
+          <h4>JOIN OUR MAILING LIST</h4>
+        </div>
+
+        <div class="app-section">
+          <h4>GET OUR APP</h4>
+          <div class="app-buttons">
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                alt="Google Play"></a>
+            <a href="#"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                alt="App Store"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Hamburger menu toggle
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+      hamburger.classList.toggle("active");
+    });
+
+    // Dropdown toggle for mobile
+    const dropdowns = document.querySelectorAll(".dropdown > a");
+    dropdowns.forEach((dropdown) => {
+      dropdown.addEventListener("click", (e) => {
+        if (window.innerWidth <= 980) {
+          e.preventDefault();
+          const parent = dropdown.parentElement;
+          parent.classList.toggle("active");
+        }
+      });
+    });
+
+    // FAQ Accordion
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const faqItem = button.parentElement;
+        const answer = faqItem.querySelector('.faq-answer');
+        const icon = button.querySelector('i');
+        
+        // Close other open FAQs
+        document.querySelectorAll('.faq-item').forEach(item => {
+          if (item !== faqItem) {
+            item.classList.remove('active');
+            item.querySelector('.faq-answer').style.display = 'none';
+            item.querySelector('i').style.transform = 'rotate(0deg)';
+          }
+        });
+        
+        // Toggle current FAQ
+        faqItem.classList.toggle('active');
+        if (faqItem.classList.contains('active')) {
+          answer.style.display = 'block';
+          icon.style.transform = 'rotate(180deg)';
+        } else {
+          answer.style.display = 'none';
+          icon.style.transform = 'rotate(0deg)';
+        }
+      });
+    });
+
+    // VIP Join Button functionality
+    document.querySelectorAll('.vip-join-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Simulate VIP signup process
+        alert('VIP Membership signup coming soon! This would redirect to a secure payment page.');
+        // In a real implementation, this would redirect to a payment processor
+        // window.location.href = 'checkout.html?plan=vip';
+      });
+    });
+  </script>
+</body>
+
+</html>
+
